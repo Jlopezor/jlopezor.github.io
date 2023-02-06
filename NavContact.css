@@ -1,0 +1,184 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+	margin: 0%;
+	background-color: rgb(29, 32, 49);
+	font-weight: 550;
+	}
+	.car-container {
+		position:relative;
+		top: 100%;
+		bottom: 0px;
+		left: 95%;
+		transform: translate(-40%, -40%);
+		z-index: 10;
+
+	  }
+	  
+	  .car {
+		position: relative;
+		margin-right: 20px;
+		margin-top: auto;
+		z-index: 10;
+
+
+	  }
+	
+	.header-div {
+		width: 75%;
+		margin: 0 auto;
+		position:sticky;
+		border-radius: 20px;
+		width: 1px;
+		align-items:center;
+		justify-content: center;
+		margin: 20px;
+	}
+	
+	header {
+		background: black;
+		border-radius: 200px;
+		width: 96%;
+		margin-left: 25px;
+		align-items:center;
+		justify-content: center;
+
+
+
+	}
+	
+	header::after{
+		content: '';
+		display: table;
+		clear: both;
+		align-items:center;
+		justify-content: center;
+		margin: auto;
+	}
+	
+	.Logo {
+		float: left;
+		padding: 10px 0;
+	}
+	
+	nav {
+	float: right;
+	align-items:center;
+    justify-content: center;
+	
+	
+	}
+	
+	nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	
+	nav li {
+		display: inline-block;
+		margin-right: 70px;
+		padding-top: 25px;
+	
+		position: relative;
+	}
+	
+	nav a {
+		color: red;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	
+	nav a:hover {
+		color: red;
+	}
+	
+	nav a::before{
+		content: '';
+		display: block;
+		height: 4px;
+	
+		background-color: red;
+	
+		position: absolute;
+		top: 0;
+		width: 0%;
+		transition: ease-in-out 175ms;
+	}
+	
+	nav a:hover::before{
+		width: 100%;
+	}
+
+	  .about-us{
+		margin-top: 70px;
+		width: 98%;
+		height: 400px;
+		margin-left: auto;
+
+	  }
+	  
+	  .about-img{
+		float: left;
+		width: 400;
+		height: 350px;
+		border-left: 10px;
+		align-items: center;
+
+	  }
+	  .about-img .img-ratchet{
+		border-radius: 10px;
+	  }
+
+	  .about-p{
+		width: 500px;
+		height: 350px;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-left: 350px;
+		align-items: center;
+
+	  }
+	  .wrapper-div{
+		margin: 20px;
+		margin-left: auto;
+	  }
+
+	  .Contact-Us{
+		margin-top: 20px;
+		width: 98%;
+		height: 400px;
+		margin-right: auto;
+
+	  }
+	  
+	  .Contact-img{
+		float: right;
+		width: 400;
+		height: 350px;
+		border-right: 10px;
+		align-items: center;
+
+	  }
+
+	  .Contact-p{
+		width: 500px;
+		height: 350px;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-left: 350px;
+		align-items: center;
+	  }
+	  .footer{
+		background: black;
+		justify-content: center;
+		height: 150px;
+		color: aliceblue;
+	  }

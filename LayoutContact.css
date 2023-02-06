@@ -1,0 +1,25 @@
+
+		
+		*
+		{
+			background: grey;
+			margin:0px;
+			padding:0px;
+			box-sizing:border-box;
+			font-family:Arial;
+		}
+		
+
+		.Nav-div
+		{
+			width: 100%;
+			min-height: 40px;
+			background-color:Black;
+			text-align:center;
+			line-height:20px;
+			margin-bottom:50px;
+			}
+
+
+
+		

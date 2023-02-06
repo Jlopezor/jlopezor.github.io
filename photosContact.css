@@ -1,0 +1,45 @@
+    /* Rounded frame for each section and background color */
+    .info-cards{
+      height: 700px;
+      width: 700;
+      margin-top: 10px;
+      left:50% ;
+      margin-left: 15px;
+    }
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.4s;
+        width: 375px;
+        margin: 10px;
+        float:left;
+        background: #ffffff;
+        height: 500PX;
+        align-items: center;
+        left:50% ;
+      }
+      /* Rounded image for each position */
+      .card img {
+        border-radius: 50%;
+        width: 200px;
+        height:200px;
+        margin:auto;
+        display:block;
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+      /* Text styling for each section */
+      .card h2 {
+        padding: 2px 16px;
+      }
+      .card p {
+        padding: 2px 16px;
+      }
+      /* Style for the current image */
+      .card.active {
+        opacity: 1;
+      }
+      /* Style for the other images */
+      .card {
+        opacity: 0;
+      }
